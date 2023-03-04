@@ -3,6 +3,7 @@
 
 """
 @Author : DASARI B BHARADWAJ
+@Email  : IAMDBBHARADWAJ@GMAIL.COM
 
 This Python script defines a set of functions and classes that generate queries based on Boolean expressions and a
 query type. The script defines two dictionaries BASE_QUERIES and END_QUERIES to store base and end queries for different

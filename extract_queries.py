@@ -20,7 +20,10 @@ allowing for more flexible querying of data.
 
 Example :
 ----------
-        exp = (Java AND Spring) OR (Python AND Django)
+        Input parameters :
+            -> exp = (Java AND Spring) OR (Python AND Django)
+            -> query_type = 'SQL'
+            -> output = SELECT * FROM Resume WHERE ( text like '%Java%' AND  text like '%Spring%') OR ( text like '%Python%' AND  text like '%Django%')
 
         exp_tree would look like :
                                      (OR)               # root node
